@@ -6,7 +6,7 @@
 
 ## Install on macOS
 
-Requirements: macOS 12+, Python 3.10+ (`python3 --version`), Git and the macOS Terminal. Apple Silicon and Intel supported. Python and Git may require Xcode Command Line Tools; if Python is missing, install with `brew install python`.
+Requirements: macOS 13+ (Ventura or later for current Tailscale), Python 3.10+ (`python3 --version`), Git and the macOS Terminal. Apple Silicon and Intel supported. Python and Git may require Xcode Command Line Tools; if Python is missing, install with `brew install python`.
 
 ```bash
 git clone https://github.com/Fenixcrowlite/synapse-macos.git
