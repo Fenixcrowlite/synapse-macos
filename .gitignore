@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+*.log
+*.token
+config.json
+STOP
+client.json
+*.secret.json
+*.pid
