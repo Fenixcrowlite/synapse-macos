@@ -1,0 +1,5 @@
+{
+  "main": "https://your-mac.your-tailnet.ts.net",
+  "backup": "https://your-free-domain.ngrok-free.app",
+  "mcp_token": "REPLACE_WITH_TOKEN_FROM_WEB_UI"
+}
