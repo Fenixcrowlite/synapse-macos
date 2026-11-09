@@ -1,0 +1,17 @@
+name: macOS smoke tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Python and run tests
+        run: |
+          python3 --version
+          python3 -m unittest discover -s tests -v
+          bash -n bootstrap.sh
+          python3 -m compileall -q synapse_mac
